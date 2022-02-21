@@ -27,9 +27,9 @@ namespace MyShop.DataAccess.InMemory
 
         }
 
-        public void Insert(Product p)
+        public void Insert(Product product)
         {
-            pl.Add(p);
+            pl.Add(product);
         }
         public void Update(Product product)
         {
